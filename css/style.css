@@ -15,4 +15,13 @@ html {
     background-color: #040404;
     width: 949px;
     height: 180px;
+    padding-left: 2px;
+  }
+  .key {
+    background-color: #ffffff;
+    position: relative;
+    width: 41px;
+    height: 175px;
+    margin: 2px;
+    float: left;
   }

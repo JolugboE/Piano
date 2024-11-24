@@ -10,6 +10,7 @@ html {
     width: 992px;
     height: 290px;
     margin: 80px auto;
+    position: relative;
   }
   .keys {
     background-color: #040404;
@@ -33,3 +34,17 @@ html {
     width: 32px;
     height: 100px;
   }
+  .logo {
+    width: 200px;
+    position: absolute;
+    top: 23px;
+  }
+  @media (max-width: 768px) {
+    #piano {
+      width: 358px;
+    }
+    .keys{
+      width: 318px;
+    }
+  }
+  
